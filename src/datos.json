@@ -1,0 +1,254 @@
+{
+  "header": {
+    "nombre": "MyCompany",
+    "links": [
+      {
+        "texto": "Prices",
+        "url": "http://localhost:5173/precios"
+      },
+      {
+        "texto": "Carrousel",
+        "url": "http://localhost:5173/carrousel"
+      }
+    ]
+  },
+  "footer": [
+    {
+      "titulo": "Social",
+      "links": [
+        {
+          "texto": "facebook",
+          "url": "http://facebook.com"
+        },
+        {
+          "texto": "twitter",
+          "url": "http://twitter.com"
+        },
+        {
+          "texto": "instagram",
+          "url": "http://instagram.com"
+        },
+        {
+          "texto": "youtube",
+          "url": "http://youtube.com"
+        }
+      ]
+    },
+    {
+      "titulo": "Contacto",
+      "links": [
+        {
+          "texto": "email",
+          "url": "mailto:mycompany@mail.com"
+        },
+        {
+          "texto": "telefono",
+          "url": "tel:123456789"
+        },
+        {
+          "texto": "direccion",
+          "url": "http://maps.google.com"
+        }
+      ]
+    }
+  ],
+  "precios": [
+    {
+      "titulo": "free",
+      "precio": "$0",
+      "per": "month",
+      "textBoton": "Sign up for free",
+      "features": [
+        "10 users included",
+        "2 GB of storage",
+        "Email support",
+        "Help center access"
+      ]
+    },
+    {
+      "titulo": "pro",
+      "precio": "$15",
+      "per": "month",
+      "textBoton": "Get started",
+      "features": [
+        "20 users included",
+        "10 GB of storage",
+        "Priority email support",
+        "Help center access"
+      ]
+    },
+    {
+      "titulo": "enterprise",
+      "precio": "$29",
+      "per": "month",
+      "textBoton": "Contact us",
+      "features": [
+        "30 users included",
+        "15 GB of storage",
+        "Phone and email support",
+        "Help center access"
+      ]
+    },
+    {
+      "titulo": "custom",
+      "precio": "custom",
+      "per": "year",
+      "textBoton": "Contact us",
+      "features": [
+        "50 users included",
+        "30 GB of storage",
+        "Priority phone and email support",
+        "Help center access"
+      ]
+    },
+    {
+      "titulo": "king",
+      "precio": "custom",
+      "per": "year",
+      "textBoton": "Contact us",
+      "features": [
+        "100 users included",
+        "50 GB of storage",
+        "Priority phone and email support",
+        "Help center access"
+      ]
+    }
+  ],
+  "carrousel": [
+    {
+      "titulo": "Foto random",
+      "texto": "Camisa de lino 100% natural",
+      "imagenes": [
+        "https://picsum.photos/500/300",
+        "https://picsum.photos/500/300",
+        "https://picsum.photos/500/300"
+      ]
+    },
+    {
+      "titulo": "Foto random",
+      "texto": "Pantalon de algodon",
+      "imagenes": [
+        "https://picsum.photos/500/300",
+        "https://picsum.photos/500/300",
+        "https://picsum.photos/500/300"
+      ]
+    },
+    {
+      "titulo": "Foto random",
+      "texto": "Zapatos de cuero",
+      "imagenes": [
+        "https://picsum.photos/500/300",
+        "https://picsum.photos/500/300",
+        "https://picsum.photos/500/300"
+      ]
+    },
+    {
+      "titulo": "Foto random",
+      "texto": "Zapatos de cuero",
+      "imagenes": [
+        "https://picsum.photos/500/300",
+        "https://picsum.photos/500/300",
+        "https://picsum.photos/500/300"
+      ]
+    },
+    {
+      "titulo": "Foto random",
+      "texto": "Zapatos de cuero",
+      "imagenes": [
+        "https://picsum.photos/500/300",
+        "https://picsum.photos/500/300",
+        "https://picsum.photos/500/300"
+      ]
+    },
+    {
+      "titulo": "Foto random",
+      "texto": "Zapatos de cuero",
+      "imagenes": [
+        "https://picsum.photos/500/300",
+        "https://picsum.photos/500/300",
+        "https://picsum.photos/500/300"
+      ]
+    },
+    {
+      "titulo": "Foto random",
+      "texto": "Zapatos de cuero",
+      "imagenes": [
+        "https://picsum.photos/500/300",
+        "https://picsum.photos/500/300",
+        "https://picsum.photos/500/300"
+      ]
+    },
+    {
+      "titulo": "Foto random",
+      "texto": "Zapatos de cuero",
+      "imagenes": [
+        "https://picsum.photos/500/300",
+        "https://picsum.photos/500/300",
+        "https://picsum.photos/500/300"
+      ]
+    },
+    {
+      "titulo": "Foto random",
+      "texto": "Zapatos de cuero",
+      "imagenes": [
+        "https://picsum.photos/500/300",
+        "https://picsum.photos/500/300",
+        "https://picsum.photos/500/300"
+      ]
+    },
+    {
+      "titulo": "Foto random",
+      "texto": "Zapatos de cuero",
+      "imagenes": [
+        "https://picsum.photos/500/300",
+        "https://picsum.photos/500/300",
+        "https://picsum.photos/500/300"
+      ]
+    },
+    {
+      "titulo": "Foto random",
+      "texto": "Zapatos de cuero",
+      "imagenes": [
+        "https://picsum.photos/500/300",
+        "https://picsum.photos/500/300",
+        "https://picsum.photos/500/300"
+      ]
+    },
+    {
+      "titulo": "Foto random",
+      "texto": "Zapatos de cuero",
+      "imagenes": [
+        "https://picsum.photos/500/300",
+        "https://picsum.photos/500/300",
+        "https://picsum.photos/500/300"
+      ]
+    },
+    {
+      "titulo": "Foto random",
+      "texto": "Zapatos de cuero",
+      "imagenes": [
+        "https://picsum.photos/500/300",
+        "https://picsum.photos/500/300",
+        "https://picsum.photos/500/300"
+      ]
+    },
+    {
+      "titulo": "Foto random",
+      "texto": "Zapatos de cuero",
+      "imagenes": [
+        "https://picsum.photos/500/300",
+        "https://picsum.photos/500/300",
+        "https://picsum.photos/500/300"
+      ]
+    },
+    {
+      "titulo": "Foto random",
+      "texto": "Zapatos de cuero",
+      "imagenes": [
+        "https://picsum.photos/500/300",
+        "https://picsum.photos/500/300",
+        "https://picsum.photos/500/300"
+      ]
+    }
+  ]
+}
