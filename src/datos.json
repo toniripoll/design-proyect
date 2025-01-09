@@ -4,11 +4,11 @@
     "links": [
       {
         "texto": "Prices",
-        "url": "http://localhost:5173/precios"
+        "url": "/precios"
       },
       {
         "texto": "Carrousel",
-        "url": "http://localhost:5173/carrousel"
+        "url": "/carrousel"
       }
     ]
   },
