@@ -3,13 +3,12 @@ const Carousel = ({ data, idx }) => {
   const carouselId = `carousel-${idx}`
 
   return (
-    <div className="col-12 col-sm-8 col-md-6 col-lg-4">
       <div className="card">
         <div id={carouselId} className="carousel slide" >
           <div className="carousel-indicators">
-            <button type="button" data-bs-target={`#${carouselId}`} data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target={`#${carouselId}`} data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target={`#${carouselId}`} data-bs-slide-to="2" aria-label="Slide 3"></button>
+            { data.imagenes.map((imagen, idx) => (
+              <button key={idx} type="button" data-bs-target={`#${carouselId}`} data-bs-slide-to={idx} className={idx === 0 ? 'active' : ''} aria-current={idx === 0} aria-label={`Slide ${idx + 1}`}></button>
+            ))}
           </div>
           <div className="carousel-inner">
             {data.imagenes.map((imagen, idx) => (
@@ -29,7 +28,6 @@ const Carousel = ({ data, idx }) => {
         </div>
         <div className="card-footer"><h5 className="text-center">{data.titulo+ " " + `${idx+1}`}</h5></div>
       </div>
-    </div>
   );
 };
 
