@@ -12,15 +12,11 @@ const Carousel = ({ data, idx }) => {
             <button type="button" data-bs-target={`#${carouselId}`} data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
           <div className="carousel-inner">
-            <div className="carousel-item active">
-              <img src={data.imagenes[0]} className="d-block w-100" alt="..." />
-            </div>
-            <div className="carousel-item">
-              <img src={data.imagenes[1]} className="d-block w-100" alt="..." />
-            </div>
-            <div className="carousel-item">
-              <img src={data.imagenes[2]} className="d-block w-100" alt="..." />
-            </div>
+            {data.imagenes.map((imagen, idx) => (
+              <div key={idx} className={`carousel-item ${idx === 0 ? 'active' : ''}`}>
+                <img src={imagen} className="d-block w-100" alt="..." />
+              </div>
+            ))}
           </div>
           <button className="carousel-control-prev" type="button" data-bs-target={`#${carouselId}`} data-bs-slide="prev">
             <span className="carousel-control-prev-icon" aria-hidden="true"></span>
